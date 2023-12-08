@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("./index_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.begin {
+    height: 100px;
+    background-color: rgba(18, 167, 115, 0.169);
+    /* display: flex; */
+
+    border-radius: 50px;
+    width: 30%;
+    transition: .5s;
+}
+
+.begin:hover {
+    background-color: rgba(18, 167, 115, 0.369);
+}
+
+.begin>span {
+    font: 1000 20px '';
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shell {
+    width: 60%;
+    height: 700px;
+    display: flex;
+    position: relative;
+    top: -150px;
+
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.215);
+    border-radius: 20px;
+    border: 10px solid #ffffff21;
+    background-color: #ffffff54;
+}
+
+
+
+.box>img {
+    width: 150%;
+    height: 90%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box>span {
+    font: 500 20px;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.119);
+    transition: .5s;
+}
+
+.box:hover {
+    flex-basis: 40%;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 90%;
+}
+
+.box:hover>span {
+    background-color: rgba(0, 0, 0, 0.219);
+}
