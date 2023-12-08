@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* border: 1px solid rgba(0, 0, 0, 0.306); */
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 3;
+}
+
+.top>div {
+
+    height: 100%;
+    width: 25%;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.top>div>a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #000000;
+    font-weight: bold;
+}
+
+.top :hover {
+    background-color: rgb(95, 163, 36);
+
+}
+
+#top2 {
+    background-color: rgb(95, 163, 36);
+    color: #ccc;
+}
+
+#top2>a {
+    color: #ccc;
+}
+
+.box {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.shell {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 3px;
+}
+
+.shell div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 30px;
+    letter-spacing: 2px;
+}
+
+.image {
+    transform: translateZ(-1px) scale(1.6);
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.text {
+    height: 50vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.text h1 {
+    color: #000;
+    align-self: flex-start;
+    text-indent: 2em;
+}
+
+.heading {
+    z-index: -1;
+    transform: translateY(-30vh) translateZ(1px);
+    color: #ffffff;
+    font-size: 30px;
+}

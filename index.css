@@ -28,7 +28,7 @@ body {
     background-color: rgba(18, 167, 115, 0.369);
 }
 
-.begin>span {
+.begin>a>span {
     font: 1000 20px '';
     text-align: center;
     height: 100%;
@@ -88,4 +88,9 @@ body {
 
 .box:hover>span {
     background-color: rgba(0, 0, 0, 0.219);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
