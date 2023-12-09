@@ -49,3 +49,50 @@
     margin-top: 60px;
     width: 100%;
 }
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(95, 163, 36);
+}
+
+.search>input {
+    height: 50%;
+}
+
+#input1 {
+    width: 50%;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*   background-color: rgb(95, 163, 36); */
+    width: 70%;
+    margin: 100px auto;
+
+
+}
+
+.content>div {
+    background-color: rgb(95, 163, 36);
+    width: 45%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+
+}
+
+.content>div>span {
+    text-align: center;
+}
+
+.content>div:hover {
+    background-color: rgba(95, 163, 36, 0.5);
+}

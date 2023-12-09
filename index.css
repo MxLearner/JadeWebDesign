@@ -9,7 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url("./index_background2.jpg");
+    /*     background-image: url("./index_background2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }

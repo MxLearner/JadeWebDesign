@@ -56,17 +56,18 @@ body {
 }
 
 .box {
+
     position: relative;
-    margin-top: 60px;
+    margin-top: 100px;
     width: 100%;
 }
 
 .shell {
-    position: relative;
+    /* position: relative; */
     /* 相对定位 */
     width: 100vw;
     /* 宽度占视口宽度的60% */
-    height: 80vw;
+    height: 40vw;
     /* 高度占视口高度的40% */
 
     margin: 0;
@@ -99,8 +100,8 @@ body {
     /* 保持3D变换 */
     transform: translateZ(-30vw) rotateY(0);
     /* 变换：沿z轴平移-30vw，绕y轴旋转0度 */
-    animation: carousel 7s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
-    /* 动画：名称为carousel，持续时间9秒，无限循环，缓动函数为cubic-bezier(0.77, 0, 0.175, 1)，动画结束后保持最后状态 */
+    animation: carousel 6s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    /* 动画：名称为carousel，持续时间6秒，无限循环，缓动函数为cubic-bezier(0.77, 0, 0.175, 1)，动画结束后保持最后状态 */
 }
 
 /* 定义项目样式 */
@@ -177,4 +178,14 @@ body {
     }
 }
 
-作者：山羊の前端小窝 https: //www.bilibili.com/read/cv27663538/ 出处：bilibili
+#input1 {
+    /*     position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+    width: 30%;
+    border-radius: 30px;
+    border-color: #0000002a;
+}
