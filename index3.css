@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* border: 1px solid rgba(0, 0, 0, 0.306); */
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 3;
+}
+
+.top>div {
+
+    height: 100%;
+    width: 25%;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.top>div>a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #000000;
+    font-weight: bold;
+}
+
+.top :hover {
+    background-color: rgb(95, 163, 36);
+
+}
+
+#top3 {
+    background-color: rgb(95, 163, 36);
+    color: #ccc;
+}
+
+#top3>a {
+    color: #ccc;
+}
+
+.box {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+}
